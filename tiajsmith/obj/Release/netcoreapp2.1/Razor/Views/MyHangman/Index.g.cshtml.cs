@@ -65,7 +65,7 @@ using tiajsmith.Models;
             WriteLiteral("\r\n<h2 id=\"hangman-title\">My Hangman Game</h2>\r\n<div class=\"hangman\">\r\n    <ul>\r\n        <li>");
             EndContext();
             BeginContext(145, 62, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dbd3bef8f182491b97fd782323bf6130", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d3ca2bd5246a4a92b1043d4a1f22cc9f", async() => {
                 BeginContext(194, 9, true);
                 WriteLiteral("(1) Login");
                 EndContext();
@@ -89,7 +89,7 @@ using tiajsmith.Models;
             WriteLiteral("</li>\r\n        <li>");
             EndContext();
             BeginContext(226, 68, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8680596f70ca485baafbdde29c39497c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f069f373fc494d769d02b642de284fdc", async() => {
                 BeginContext(278, 12, true);
                 WriteLiteral("(2) Register");
                 EndContext();

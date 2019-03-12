@@ -253,4 +253,8 @@ main ul li {
     margin-bottom: 10px;
 }
 
+
+div.form-group {
+    width: 25%;
+}
 /* End Hangman styling */
