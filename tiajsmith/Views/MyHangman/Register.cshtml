@@ -1,12 +1,12 @@
 ﻿@model RegistrationViewModel
 @{
     ViewData["Title"] = "Registration";
-    <link href="@Url.Content("~/css/form.css")" rel="stylesheet" />
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
 }
 
 <h2>Register to Play Hangman</h2>
 
+@* On submit will call the Register HttpPost method *@
 <form method="post" asp-controller="myhangman" asp-action="register">
     <div class="form-group">
         <label asp-for="FirstName"></label>

@@ -12,7 +12,7 @@ namespace tiajsmith.Models
         /// Email address to use in registration.
         /// </summary>
         //[Display(Name = "Your Email")]
-        [Required(ErrorMessage = "*")] /* Have to fill in this field */
+        [Required(ErrorMessage = "A valid email is required.")] /* Have to fill in this field */
         [EmailAddress] /* Has to be a valid email address */
         public string Email { get; set; }
 
@@ -21,27 +21,20 @@ namespace tiajsmith.Models
         public string ConfirmEmail { get; set; }
 
         /// <summary>
-        /// The user's name used in class.
-        /// </summary>
-        [Display(Name = "Your Name")]
-        //Changes the error message sent if incorrect.
-        [Required(ErrorMessage = "2 characters or more please")]
-        [MinLength(2)] /* You have to have 2 characters in your name. */
-        public string Name { get; set; }
-
-        /// <summary>
         /// The user's first name.
         /// </summary>
-        [Required]
+        [Required(ErrorMessage = "Name must be between 2 and 20 characters long")]
         [MaxLength(20)]
+        [MinLength(2)] /* You have to have 2 characters in your name. */
         [Display(Name = "First Name")]
         public string FirstName { get; set; }
 
         /// <summary>
         /// The user's last name.
         /// </summary>
-        [Required]
+        [Required(ErrorMessage = "Name must be between 2 and 20 characters long")]
         [MaxLength(20)]
+        [MinLength(2)] /* You have to have 2 characters in your name. */
         [Display(Name = "Last Name")]
         public string LastName { get; set; }
 

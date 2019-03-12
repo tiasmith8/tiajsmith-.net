@@ -1,9 +1,11 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
 for details on configuring this project to bundle and minify static web assets. */
+/* Set the page look and feel */
 body {
     padding-top: 50px;
     padding-bottom: 20px;
     background-color: black;
+    color: #f6ecec;
 }
 
 /* Wrapping element */
@@ -45,6 +47,32 @@ body {
 
 .navbar {
     background-color: black;
+}
+
+/* Change the color of the nav bar*/
+.navbar-inverse .navbar-nav > li > a {
+    color: #eef0e7;
+    text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover{
+    background-color: rgba(250,2500,0, .8);
+}
+
+/* Makes tiajsmith at the top left bigger in the navbar */
+.navbar-brand {
+    font-size: 28px;
+}
+
+#hangman-link a {
+    text-transform: unset;
+    /*background-color: red;*/
+}
+
+/* When hovering over "My Hangman Game" */
+#hangman-link a:hover {
+    background-color: #266B08;
+    text-transform: uppercase;
 }
 
 /* Make a CSS Grid */
@@ -258,3 +286,4 @@ div.form-group {
     width: 25%;
 }
 /* End Hangman styling */
+
