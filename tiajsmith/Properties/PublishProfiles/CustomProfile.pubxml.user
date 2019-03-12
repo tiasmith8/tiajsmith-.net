@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Y9NR0CTQEeUT3kW+B4nggAAAAACAAAAAAAQZgAAAAEAACAAAADHvcaYyHr7u/0fmv54oKNwoxZSNG+V9whabfN/d4BcTQAAAAAOgAAAAAIAACAAAAAYKS02N/TkUX3x7li91oVLdiE/B48vD5a/L93FwW3O6iAAAACd4dsjTPqFlhuwmyjSUf4gmhe58BZL61yv5lO4IRkFm0AAAAAB9GvQYLLk7gjzzHHCW9Mgm+jo4ELFM+WNtvNujd0v5WwkQK1zybB23rg9+6w9cWi1jcdSiZmAIgDXtwF9dj/Y</EncryptedPassword>
+    <_PublishTargetUrl>ftp://tiajsmith.somee.com/</_PublishTargetUrl>
+  </PropertyGroup>
+</Project>

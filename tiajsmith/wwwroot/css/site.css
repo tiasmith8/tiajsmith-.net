@@ -1,0 +1,256 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: black;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+/* Above automatically added by Visual Studio 2017 when creating the project*/
+/*body {
+    background-color: rgb(34,34,34);
+    background-color: black;
+}*/
+
+.navbar {
+    background-color: black;
+}
+
+/* Make a CSS Grid */
+.landing-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.screenshot {
+    width: 300px;
+    height: auto;
+    border-radius: 30%;
+    margin: 10px;
+    text-align: center;
+    border: 4px solid #808080;
+}
+
+#contact-info {
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-content: space-between;
+}
+
+hr {
+    color: red;
+}
+
+#contact-info li {
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding-bottom: 20px;
+}
+
+.contact-way a:hover {
+    text-decoration: none;
+    color: #A58326;
+}
+
+.contact-way a {
+    color: #266B08;
+}
+
+#contact-h2 {
+    color: #A58326;
+}
+
+#phone {
+    color: #4B3D14;
+}
+
+.about {
+    font-size: 5rem;
+    color: rgba(250,250,0, .5);
+    width: 100%;
+    background-image: url("../images/TS_utah-ConvertImage.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: right bottom;
+    opacity: 0.7;
+}
+
+#current-technologies {
+    font-size: 16px;
+    color: #d48f22;
+}
+
+main ul {
+    display: flex;
+    flex-direction: column;
+}
+
+main ul li {
+    border: 1px solid rgba(250,2500,0, .5);
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+#hangman-link a {
+    color: rgba(250,2500,0, .8)
+}
+
+.portfolio-text {
+    color: aliceblue;
+    text-align: center;
+}
+
+.portfolio-text div {
+    color: rgba(250,2500,0, .8);
+    font-size: 14px;
+}
+
+.contact-label {
+    color: #f2ebeb;
+}
+
+#contact-info li img{
+    width: 50px;
+    height: auto;
+    display: inline;
+}
+
+/* CSS Grid for image gallery */
+.gallery img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border: 1px solid #b42e2e;
+    margin: 1px;
+}
+
+.gallery img:hover {
+    /*opacity: 0.7;*/
+     -webkit-transform:scale(1.8); 
+     transform:scale(1.8);
+     border: 1px solid white;
+     padding: 0px;
+     margin: 0px;
+}
+
+.gallery {
+    /* Prevent vertical gaps */
+    line-height: 0;
+    -webkit-column-count: 5;
+    -webkit-column-gap: 0px;
+    -moz-column-count: 5;
+    -moz-column-gap: 0px;
+    column-count: 5;
+    column-gap: 0px;
+}
+
+#gallery-header{
+    color: #d4cd53;
+}
+
+@media (max-width: 1200px) {
+    .gallery {
+        -moz-column-count: 4;
+        -webkit-column-count: 4;
+        column-count: 4;
+    }
+}
+
+@media (max-width: 1000px) {
+    .gallery {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media (max-width: 800px) {
+    .gallery {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media (max-width: 400px) {
+    .gallery {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
+
+#or{
+    color: azure;
+}
+
+.bigImage {
+    background-color: red;
+}
+
+/* Hangman styling */
+.hangman{
+    display: flex;
+    justify-content: center;
+    color: #83459c;
+    /*flex-direction: column;*/
+}
+.hangman ul{
+    list-style: none;
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+
+#hangman-title {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.hangman a:hover {
+    text-decoration: none;
+}
+
+.hangman li {
+    margin-bottom: 10px;
+}
+
+/* End Hangman styling */
