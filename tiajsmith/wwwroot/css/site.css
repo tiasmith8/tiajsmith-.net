@@ -11,8 +11,8 @@ body {
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 /* Carousel */
@@ -147,7 +147,7 @@ hr {
     opacity: 0.7;
 }
 
-#current-technologies img {
+#current-technologies img, #past-technologies img {
     width: 10%;
     height: auto;
     margin: 10px;
@@ -165,7 +165,8 @@ hr {
 
 /* Footer icons alignment*/
 .connect-icons {
-    text-align: right;
+    text-align: left;
+    margin-bottom: 15px;
 }
 
 .connect-icons img {
@@ -173,7 +174,7 @@ hr {
 }
 
 .connect-icons img {
-    width: 4%;
+    width: 3%;
     height: auto;
 }
 
