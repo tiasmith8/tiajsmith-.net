@@ -40,10 +40,16 @@ body {
 }
 
 /* Above automatically added by Visual Studio 2017 when creating the project*/
-/*body {
-    background-color: rgb(34,34,34);
-    background-color: black;
-}*/
+/* Custom variables */
+:root {
+    --header-color-gold: #d4cd53;
+    --header-color-darkgold: #a58326;
+}
+
+/* Sets color for the h2 element in About section */
+#about-header{
+    color: var(--header-color-darkgold);
+}
 
 .navbar {
     background-color: black;
@@ -141,10 +147,22 @@ hr {
     opacity: 0.7;
 }
 
+#current-technologies img {
+    width: 10%;
+    height: auto;
+    margin: 10px;
+}
+
 #current-technologies {
     font-size: 16px;
     color: #d48f22;
 }
+
+#current-technologies>ul>li{
+    /*background-color: antiquewhite;*/
+    display: inline;
+}
+
 
 main ul {
     display: flex;
@@ -212,7 +230,7 @@ main ul li {
 }
 
 #gallery-header{
-    color: #d4cd53;
+    color: var(--header-color-gold);
 }
 
 @media (max-width: 1200px) {

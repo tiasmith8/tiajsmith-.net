@@ -163,6 +163,20 @@ hr {
     display: inline;
 }
 
+/* Footer icons alignment*/
+.connect-icons {
+    text-align: right;
+}
+
+.connect-icons img {
+    margin: 0px 10px;
+}
+
+.connect-icons img {
+    width: 4%;
+    height: auto;
+}
+
 
 main ul {
     display: flex;
