@@ -235,16 +235,22 @@ main ul li {
 
 .gallery {
     /* Prevent vertical gaps */
-    line-height: 0;
-    -webkit-column-count: 5;
-    -webkit-column-gap: 0px;
+    line-height: 10;
+    -webkit-column-count: 5; /* Pictures displayed in 5 columns */
+    -webkit-column-gap: 0px; /* No space between columns */
     -moz-column-count: 5;
     -moz-column-gap: 0px;
     column-count: 5;
     column-gap: 0px;
+
 }
 
-#gallery-header{
+/*.gallery-container {
+    padding: 10px;
+    background-color: orange;
+}*/
+
+#gallery-header {
     color: var(--header-color-gold);
 }
 

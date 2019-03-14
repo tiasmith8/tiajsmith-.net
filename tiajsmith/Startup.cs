@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using tiajsmith.DAL;
 
 namespace tiajsmith
 {
@@ -31,7 +32,7 @@ namespace tiajsmith
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-
+            services.AddTransient<UserSqlDAO>(m => new UserSqlDAO(Configuration.GetConnectionString("HangmanDB")));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 

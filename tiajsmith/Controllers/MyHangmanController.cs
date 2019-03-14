@@ -3,12 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using tiajsmith.DAL;
 using tiajsmith.Models;
 
 namespace tiajsmith.Controllers
 {
     public class MyHangmanController : Controller
     {
+        public UserSqlDAO userDAO;
+        public MyHangmanController(UserSqlDAO userDAO)
+        {
+            this.userDAO = userDAO;
+        }
+
         [HttpGet]
         public IActionResult Index()
         {
@@ -33,7 +40,9 @@ namespace tiajsmith.Controllers
             //Check to see if model is valid
             if (ModelState.IsValid)
             {
-                //Save the data, everything is good
+                //Save the new user to database
+                userDAO.CreateUser(model.Email, model.Password);
+
                 //Redirects the page to method Confirmation
                 //return RedirectToAction("Confirmation");
                 return RedirectToAction("Confirmation", model);
@@ -56,6 +65,22 @@ namespace tiajsmith.Controllers
         [HttpGet]
         public IActionResult Login()
         {
+            return View();
+        }
+
+        // POST: User/Login submit
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Login(LoginViewModel model)
+        {
+            // If Login is sucessful - redirect to Game Page
+            if(ModelState.IsValid)
+            {
+
+                RedirectToAction("Game");
+            }
+
+            // If Login is not successful - send back to Login page
             return View();
         }
 

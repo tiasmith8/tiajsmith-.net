@@ -1,0 +1,25 @@
+﻿@model LoginViewModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h2>Login to Play</h2>
+
+@if (ViewData.ModelState["AuthenticationFailed"] != null)
+{
+    <p>The username and/or password provided is invalid.</p>
+}
+
+    <form method="post" asp-controller="myhangman" asp-action="login">
+        <div class="form-control">
+            <label asp-for="Email"></label>
+            <input asp-for="Email" type="password" />
+            <span asp-validation-for="Email"></span>
+        </div>
+        <div class="form-control">
+            <label asp-for="Password"></label>
+            <input asp-for="Password" type="password" />
+            <span asp-validation-for="Password"></span>
+        </div>
+        <input type="submit" value="Submit"/>
+    </form>
