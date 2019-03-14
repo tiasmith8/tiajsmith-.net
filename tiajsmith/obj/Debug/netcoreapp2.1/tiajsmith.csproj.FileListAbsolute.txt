@@ -37,3 +37,4 @@ C:\Users\Tia Smith\source\repos\tiajsmith\tiajsmith\obj\Debug\netcoreapp2.1\User
 C:\Users\Tia Smith\source\repos\tiajsmith\tiajsmith\obj\Debug\netcoreapp2.1\Razor\Views\MyHangman\Register.g.cshtml.cs
 C:\Users\Tia Smith\source\repos\tiajsmith\tiajsmith\obj\Debug\netcoreapp2.1\Razor\Views\MyHangman\Confirmation.g.cshtml.cs
 C:\Users\Tia Smith\source\repos\tiajsmith\tiajsmith\obj\Debug\netcoreapp2.1\Razor\Views\MyHangman\Login.g.cshtml.cs
+C:\Users\Tia Smith\source\repos\tiajsmith\tiajsmith\obj\Debug\netcoreapp2.1\Razor\Views\MyHangman\Game.g.cshtml.cs

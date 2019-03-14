@@ -5,11 +5,7 @@
 }
 
 <h2>Login to Play</h2>
-
-@if (ViewData.ModelState["AuthenticationFailed"] != null)
-{
-    <p>The username and/or password provided is invalid.</p>
-}
+<p id="incorrect-credentials">@TempData["login_message"]</p>
 
 <form method="post" asp-controller="myhangman" asp-action="login">
     <div class="form-group">

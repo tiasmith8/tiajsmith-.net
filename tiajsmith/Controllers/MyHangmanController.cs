@@ -76,11 +76,32 @@ namespace tiajsmith.Controllers
             // If Login is sucessful - redirect to Game Page
             if(ModelState.IsValid)
             {
-
-                RedirectToAction("Game");
+                // Check that the username and password are correct
+                User user = userDAO.GetUser(model.Email);
+                if (user != null && user.Password.Equals(model.Password))
+                {
+                    return RedirectToAction("Game");
+                }
+                else
+                {
+                    // Send tempdata message that username/password are incorrect
+                    TempData["login_message"] = "*The email and/or password provided is incorrect.";
+                    return View(model);
+                }
+                
             }
 
             // If Login is not successful - send back to Login page
+            else
+            {
+                return View(model);
+            }
+            
+        }
+
+        [HttpGet]
+        public IActionResult Game()
+        {
             return View();
         }
 
