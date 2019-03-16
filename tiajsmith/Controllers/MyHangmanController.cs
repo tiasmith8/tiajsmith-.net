@@ -88,15 +88,14 @@ namespace tiajsmith.Controllers
                     TempData["login_message"] = "*The email and/or password provided is incorrect.";
                     return View(model);
                 }
-                
             }
 
             // If Login is not successful - send back to Login page
             else
             {
+                TempData["login_message"] = "*The email and/or password provided is incorrect.";
                 return View(model);
             }
-            
         }
 
         [HttpGet]

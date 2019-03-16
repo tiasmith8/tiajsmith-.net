@@ -36,3 +36,5 @@ C:\Users\Tia Smith\source\repos\tiajsmith\tiajsmith\obj\Release\netcoreapp2.1\Ra
 C:\Users\Tia Smith\source\repos\tiajsmith\tiajsmith\obj\Release\netcoreapp2.1\UserSecretsAssemblyInfo.cs
 C:\Users\Tia Smith\source\repos\tiajsmith\tiajsmith\obj\Release\netcoreapp2.1\Razor\Views\MyHangman\Register.g.cshtml.cs
 C:\Users\Tia Smith\source\repos\tiajsmith\tiajsmith\obj\Release\netcoreapp2.1\Razor\Views\MyHangman\Confirmation.g.cshtml.cs
+C:\Users\Tia Smith\source\repos\tiajsmith\tiajsmith\obj\Release\netcoreapp2.1\Razor\Views\MyHangman\Game.g.cshtml.cs
+C:\Users\Tia Smith\source\repos\tiajsmith\tiajsmith\obj\Release\netcoreapp2.1\Razor\Views\MyHangman\Login.g.cshtml.cs
