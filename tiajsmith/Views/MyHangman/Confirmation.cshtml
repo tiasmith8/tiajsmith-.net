@@ -6,5 +6,7 @@
 
 <h2>Confirmation</h2>
 
-<p>Congratulations <strong>@Model.FirstName</strong>, Your registration is complete! Press continue to play.</p>
-<input type="submit" value="Continue" />
+<p>Congratulations <strong>@Model.FirstName</strong>, Your registration is complete! Press continue.</p>
+<form method="get" asp-controller="MyHangman" asp-action="Game">
+    <input type="submit" value="Continue" />
+</form>
