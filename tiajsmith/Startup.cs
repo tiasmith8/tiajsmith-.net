@@ -32,6 +32,7 @@ namespace tiajsmith
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            //services.AddTransient<UserSqlDAO>(m => new UserSqlDAO(Configuration.GetConnectionString("HangmanDB")));
             services.AddTransient<UserSqlDAO>(m => new UserSqlDAO(Configuration.GetConnectionString("HangmanDB")));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
