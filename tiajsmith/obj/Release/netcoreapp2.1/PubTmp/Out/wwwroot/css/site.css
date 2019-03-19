@@ -147,7 +147,7 @@ hr {
     opacity: 0.7;
 }
 
-#current-technologies img, #past-technologies img {
+#current-technologies img, #past-technologies img, #future-technologies img {
     width: 10%;
     height: auto;
     margin: 10px;
@@ -161,6 +161,18 @@ hr {
 #current-technologies>ul>li{
     /*background-color: antiquewhite;*/
     display: inline;
+}
+
+#future-technologies>ul{
+    list-style: none;
+}
+
+#future-technologies>ul>li {
+    display: inline;
+}
+
+#future-technologies h3 {
+    color: #717272;
 }
 
 /* Footer icons alignment*/
