@@ -10,35 +10,56 @@ namespace tiajsmith.Controllers
 {
     public class HomeController : Controller
     {
+        /// <summary>
+        /// Splash page with enter button
+        /// </summary>
+        /// <returns></returns>
         public IActionResult Index()
         {
             return View();
         }
 
+        /// <summary>
+        /// Portfolio page with website pictures and links
+        /// </summary>
+        /// <returns></returns>
         public IActionResult Landing()
         {
             return View();
         }
 
+        /// <summary>
+        /// Landing page with the about information
+        /// </summary>
+        /// <returns></returns>
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            //ViewData["Message"] = "Your application description page.";
 
             return View();
         }
 
+        public IActionResult AboutMe()
+        {
+            return View();
+        }
+
+
+        /// <summary>
+        /// Contact information page with ways to connect.
+        /// </summary>
+        /// <returns></returns>
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            // ViewData["Message"] = "Your contact page.";
 
             return View();
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
+        /// <summary>
+        /// Gallery of pictures view.
+        /// </summary>
+        /// <returns></returns>
         public IActionResult Gallery()
         {
             return View();

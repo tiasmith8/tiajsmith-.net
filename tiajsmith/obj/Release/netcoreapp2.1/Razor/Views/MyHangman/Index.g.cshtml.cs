@@ -69,7 +69,7 @@ using tiajsmith.Models;
             WriteLiteral("</h2>\r\n<div class=\"hangman\">\r\n    <ul>\r\n        <li>");
             EndContext();
             BeginContext(163, 58, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4d94324ffd7e4a15bddc24e7eb01665a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c2fef6eae0e4dc8bd1d59df36e572b0", async() => {
                 BeginContext(212, 5, true);
                 WriteLiteral("Login");
                 EndContext();
@@ -93,7 +93,7 @@ using tiajsmith.Models;
             WriteLiteral("</li>\r\n        <li>");
             EndContext();
             BeginContext(240, 64, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2fccdfe8a10948628dc0372e2ed449d6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ce5384666a2f4b59b65d711621743aa2", async() => {
                 BeginContext(292, 8, true);
                 WriteLiteral("Register");
                 EndContext();
@@ -117,7 +117,7 @@ using tiajsmith.Models;
             WriteLiteral("</li>\r\n        <li>");
             EndContext();
             BeginContext(323, 69, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5e575127b2df439ba480875e1a3dcb2e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "217f41e2308a407295425b10f5347753", async() => {
                 BeginContext(371, 17, true);
                 WriteLiteral("Continue as Guest");
                 EndContext();
