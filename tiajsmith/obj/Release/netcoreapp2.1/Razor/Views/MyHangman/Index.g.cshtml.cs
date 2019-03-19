@@ -66,7 +66,7 @@ using tiajsmith.Models;
             WriteLiteral("\r\n<h2 id=\"hangman-title\">My Hangman Game</h2>\r\n<div class=\"hangman\">\r\n    <ul>\r\n        <li>");
             EndContext();
             BeginContext(145, 58, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a9b3964746474e09a7bf3289b3677f1e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cd0cba08aa7644f9b880d14ef5a06d77", async() => {
                 BeginContext(194, 5, true);
                 WriteLiteral("Login");
                 EndContext();
@@ -90,7 +90,7 @@ using tiajsmith.Models;
             WriteLiteral("</li>\r\n        <li>");
             EndContext();
             BeginContext(222, 64, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "df066bc8161c4353a6138a7873c4884e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ab13fa7cdd9a4582b2ccefcaf753cb46", async() => {
                 BeginContext(274, 8, true);
                 WriteLiteral("Register");
                 EndContext();
@@ -114,7 +114,7 @@ using tiajsmith.Models;
             WriteLiteral("</li>\r\n        <li>");
             EndContext();
             BeginContext(305, 69, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "596322ef800148f183c70cfe442b49bf", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "807fab5ef5f2437492326ea9747665c2", async() => {
                 BeginContext(353, 17, true);
                 WriteLiteral("Continue as Guest");
                 EndContext();
