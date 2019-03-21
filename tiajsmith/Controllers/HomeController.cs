@@ -32,7 +32,7 @@ namespace tiajsmith.Controllers
         /// Landing page with the about information
         /// </summary>
         /// <returns></returns>
-        public IActionResult About()
+        public IActionResult AboutMe()
         {
             return View();
         }

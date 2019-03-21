@@ -14,7 +14,6 @@ C:\Users\Tia Smith\source\repos\tiajsmith\tiajsmith\obj\Release\netcoreapp2.1\ti
 C:\Users\Tia Smith\source\repos\tiajsmith\tiajsmith\obj\Release\netcoreapp2.1\tiajsmith.TagHelpers.input.cache
 C:\Users\Tia Smith\source\repos\tiajsmith\tiajsmith\obj\Release\netcoreapp2.1\tiajsmith.TagHelpers.output.cache
 C:\Users\Tia Smith\source\repos\tiajsmith\tiajsmith\obj\Release\netcoreapp2.1\tiajsmith.RazorCoreGenerate.cache
-C:\Users\Tia Smith\source\repos\tiajsmith\tiajsmith\obj\Release\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
 C:\Users\Tia Smith\source\repos\tiajsmith\tiajsmith\obj\Release\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
 C:\Users\Tia Smith\source\repos\tiajsmith\tiajsmith\obj\Release\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
 C:\Users\Tia Smith\source\repos\tiajsmith\tiajsmith\obj\Release\netcoreapp2.1\Razor\Views\Home\Landing.g.cshtml.cs
@@ -38,3 +37,4 @@ C:\Users\Tia Smith\source\repos\tiajsmith\tiajsmith\obj\Release\netcoreapp2.1\Ra
 C:\Users\Tia Smith\source\repos\tiajsmith\tiajsmith\obj\Release\netcoreapp2.1\Razor\Views\MyHangman\Confirmation.g.cshtml.cs
 C:\Users\Tia Smith\source\repos\tiajsmith\tiajsmith\obj\Release\netcoreapp2.1\Razor\Views\MyHangman\Game.g.cshtml.cs
 C:\Users\Tia Smith\source\repos\tiajsmith\tiajsmith\obj\Release\netcoreapp2.1\Razor\Views\MyHangman\Login.g.cshtml.cs
+C:\Users\Tia Smith\source\repos\tiajsmith\tiajsmith\obj\Release\netcoreapp2.1\Razor\Views\Home\AboutMe.g.cshtml.cs
