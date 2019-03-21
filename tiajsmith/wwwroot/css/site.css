@@ -322,10 +322,17 @@ main ul li {
 #hangman-title {
     text-align: center;
     margin: 50px 0px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .hangman a:hover {
     text-decoration: none;
+    color: #a9ac29;
+}
+
+.hangman a {
+    color: #404e29;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .hangman li {

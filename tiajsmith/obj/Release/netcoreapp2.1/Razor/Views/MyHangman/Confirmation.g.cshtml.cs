@@ -66,7 +66,7 @@ using tiajsmith.Models;
             WriteLiteral("    ");
             EndContext();
             BeginContext(79, 71, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5b9fac325ca04af6ae085a09e6d7f9e1", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "66993ac49bbd4960907be0b1e033cd3e", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -98,7 +98,7 @@ using tiajsmith.Models;
             WriteLiteral("</strong>, Your registration is complete! Press continue.</p>\r\n");
             EndContext();
             BeginContext(288, 119, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b5f03d01d48e484fa3bb9b875f5a47fd", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "68d7faa4f30044ca9a7b30d07503f30d", async() => {
                 BeginContext(352, 48, true);
                 WriteLiteral("\r\n    <input type=\"submit\" value=\"Continue\" />\r\n");
                 EndContext();
